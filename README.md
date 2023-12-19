@@ -9,7 +9,7 @@ This repository allows users to compare and contrast languages, analyze phonemic
 
 ```
 cd lexi
-wget https://zenodo.org/records/2593234/files/cldf-datasets/phoible-v2.0.zip?download=1
+curl -s -o phoible-v2.0.zip 'https://zenodo.org/records/2593234/files/cldf-datasets/phoible-v2.0.zip?download=1'
 ```
 
 2. Unzip the dataset
@@ -18,10 +18,18 @@ wget https://zenodo.org/records/2593234/files/cldf-datasets/phoible-v2.0.zip?dow
 unzip phoible-v2.0.zip
 ```
 
-3. Install python dependencies
+3. Clean up and rename
 
 ```
-pip3 -r requirements.txt
+rm phoible-v2.0.zip
+mkdir data
+mv cldf-datasets-phoible-350563f data/phoible
+```
+
+4. Install python dependencies
+
+```
+pip3 install -r requirements.txt
 ```
 
 ### Citations & Licensing
