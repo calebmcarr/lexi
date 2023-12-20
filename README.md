@@ -3,6 +3,8 @@
 
 This repository allows users to compare and contrast languages, analyze phonemic patterns, and more. The underlying data is provided by the PHOIBLE dataset (cited below). 
 
+![Phonemic Comparison of English and Spanish](https://github.com/calebmcarr/lexi/blob/main/data/images/eng_esp_comp.png) ![Transition Probabilities of Bigrams in The Declaration of Independence](https://github.com/calebmcarr/lexi/blob/main/data/images/transitionProbs.png)
+
 ### Setup
 
 1. Download the PHOIBLE dataset
